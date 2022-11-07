@@ -2060,10 +2060,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^13.7.0":
-  version: 13.13.46
-  resolution: "@types/node@npm:13.13.46"
-  checksum: a2a9c17c5bd182047e0f56520859f928d30a1a2d7a76aca0809273adc9b0631ced6ca6d14f47174e6e1b7848c0cbb6bde46aa88f43f44cd1966dafa7e752ef7a
+"@types/node@npm:>=13.7.0":
+  version: 18.11.9
+  resolution: "@types/node@npm:18.11.9"
+  checksum: cc0aae109e9b7adefc32eecb838d6fad931663bb06484b5e9cbbbf74865c721b03d16fd8d74ad90e31dbe093d956a7c2c306ba5429ba0c00f3f7505103d7a496
   languageName: node
   linkType: hard
 
@@ -6127,8 +6127,8 @@ fsevents@^2.3.2:
   linkType: hard
 
 "protobufjs@npm:^6.10.1":
-  version: 6.10.2
-  resolution: "protobufjs@npm:6.10.2"
+  version: 6.11.3
+  resolution: "protobufjs@npm:6.11.3"
   dependencies:
     "@protobufjs/aspromise": ^1.1.2
     "@protobufjs/base64": ^1.1.2
@@ -6141,12 +6141,12 @@ fsevents@^2.3.2:
     "@protobufjs/pool": ^1.1.0
     "@protobufjs/utf8": ^1.1.0
     "@types/long": ^4.0.1
-    "@types/node": ^13.7.0
+    "@types/node": ">=13.7.0"
     long: ^4.0.0
   bin:
     pbjs: bin/pbjs
     pbts: bin/pbts
-  checksum: b48257c90540533ace5940c95ea89eaf93ffdd5a13b00d8c13349b68e3a494e3b1dee8c3cb9271bacacf0179feac2acb20efe2979bf2fce7b5e1690f71e66332
+  checksum: 4a6ce1964167e4c45c53fd8a312d7646415c777dd31b4ba346719947b88e61654912326101f927da387d6b6473ab52a7ea4f54d6f15d63b31130ce28e2e15070
   languageName: node
   linkType: hard
 
