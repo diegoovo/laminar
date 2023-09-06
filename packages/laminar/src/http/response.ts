@@ -540,7 +540,7 @@ export function html<TResponseBody, TResponse extends Partial<HttpResponse<TResp
  * @category HttpResponse
  */
 export function css<TResponseBody, TResponse extends Partial<HttpResponse<TResponseBody>>>(res: TResponse) {
-  return { ...res, headers: { ...res.headers, 'content-type': 'text/css' as const } };
+  return { ...res, headers: { ...res.headers, 'content-disposition': 'text/css' as const } };
 }
 
 /**
